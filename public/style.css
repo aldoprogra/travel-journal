@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    
+}
+
+.card {
+
+    position:relative;
+    top: 100px;
+    left: 40px;  
+    align-items: center; 
+}
+
+.card--imag{
+    width: 125px;
+    height: 168px;
+}
+.card--stats{
+    display: flex;
+    flex-direction: column;
+    width: 326px;
+    height: 40px;
+}
+.card--title{
+    position: relative;
+    width: 326px;
+    height: 40px;
+    left: 184px;
+    top: -116px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #2B283A;
+ 
+}
+.card--description{
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 184px;
+    top: -120px;
+    width: 326px;
+    height: 40px;
+}
+.nav-bar{
+    position: absolute;
+    width: 550px;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+    background: #F55A5A;
+
+}
+
+.header{
+    position: absolute;
+    width: 109px;
+    height: 16px;
+    left: 244px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+}
+
+
+.card--first{
+        display: flex;
+        flex-direction: row;
+       
+        position: relative;
+        margin-left: -3px;
+        top: -85px;
+        width: 326px;
+        height: 40px;
+      
+
+}
+.card--loc{ 
+    position: relative;
+    left: 186px;
+}
+.card--maps{
+   position: relative;
+   margin-top: 13px;
+
+   left: 190px;
+}
+
+.card--date{
+    position: relative;
+    align-items: baseline;
+    width: 340px;
+    height: 11px;
+    left: 184px;
+    top: -130px;
+
+font-family: 'Poppins';
+font-style: small;
+font-weight: 60;
+
+font-size: 10.24px;
+line-height: 12px;
+letter-spacing: 1px;
+
+color: #2B283A;
+}
+
+.outro{
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 750px;
+    left: 120px;
+    color: #F55A5A;
+}
